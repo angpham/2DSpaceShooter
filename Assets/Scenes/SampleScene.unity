@@ -319,7 +319,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 5377539912146774847, guid: 9ba35f4ed48ac48aa8b3717751c78169, type: 3}
-  timerMin: 5
+  timerMin: 1
   timerMax: 12
 --- !u!4 &514270854
 Transform:

@@ -24,17 +24,15 @@ public class Enemy_Controller : MonoBehaviour
         timerBullet = 0;
         maxTimerBullet = Random.Range(timerMin, timerMax);
 
-        
+        if (canFireBullets)
+        {
+            StartCoroutine("FireBullet");
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (canFireBullets)
-        {
-            StartCoroutine("FireBullet");
-        }
-
         if (Camera.main.WorldToViewportPoint(transform.position).y < 0)
         {
             Destroy(this.gameObject);
