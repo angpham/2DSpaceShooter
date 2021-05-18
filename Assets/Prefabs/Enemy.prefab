@@ -119,10 +119,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60ccb23ccdcec429fba9e57fdf5d7667, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: -0.25
+  speed: -0.5
   bullet: {fileID: 5960971146158673020, guid: 264993e157fb14b1ebb821d1990f847d, type: 3}
   timerMin: 5
-  timerMax: 25
+  timerMax: 10
   canFireBullets: 1
 --- !u!61 &8867721435082620170
 BoxCollider2D:
